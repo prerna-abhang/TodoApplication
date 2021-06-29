@@ -1,0 +1,122 @@
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":1},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":1},"level":"info"}
+{"message":"Method : GET, Path : /inProgress","level":"info"}
+{"message":{"status":200,"recordCount":1},"level":"info"}
+{"message":"Method : GET, Path : /completed","level":"info"}
+{"message":{"status":200,"recordCount":0},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":1},"level":"info"}
+{"message":"Method : POST, Path : /add","level":"info"}
+{"message":{"status":200,"todoDetails":{"_id":"60db27ed76e9252fd65f5f05","name":"a","description":"j","time":"07:08","status":"In Progress","__v":0}},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : GET, Path : /completed","level":"info"}
+{"message":{"status":200,"recordCount":0},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : GET, Path : /inProgress","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : GET, Path : /inProgress","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : GET, Path : /completed","level":"info"}
+{"message":{"status":200,"recordCount":0},"level":"info"}
+{"message":"Method : GET, Path : /inProgress","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : GET, Path : /completed","level":"info"}
+{"message":{"status":200,"recordCount":0},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : POST, Path : /add","level":"info"}
+{"message":{"status":200,"todoDetails":{"_id":"60db2e1e76e9252fd65f5f17","name":"d","description":"b","time":"08:05","status":"Completed","__v":0}},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":3},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":3},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":3},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":3},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":3},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":3},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":3},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":3},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":3},"level":"info"}
+{"message":"Method : GET, Path : /inProgress","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : GET, Path : /completed","level":"info"}
+{"message":{"status":200,"recordCount":1},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":3},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":3},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":3},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":0},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":0},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":0},"level":"info"}
+{"message":"Method : GET, Path : /inProgress","level":"info"}
+{"message":{"status":200,"recordCount":0},"level":"info"}
+{"message":"Method : GET, Path : /completed","level":"info"}
+{"message":{"status":200,"recordCount":0},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":0},"level":"info"}
+{"message":"Method : POST, Path : /add","level":"info"}
+{"message":{"status":200,"todoDetails":{"_id":"60db366234ddf836dc922d7b","name":"a","description":"g","time":"04:05","status":"In Progress","__v":0}},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":1},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":1},"level":"info"}
+{"message":"Method : GET, Path : /inProgress","level":"info"}
+{"message":{"status":200,"recordCount":1},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":1},"level":"info"}
+{"message":"Method : GET, Path : /completed","level":"info"}
+{"message":{"status":200,"recordCount":0},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":1},"level":"info"}
+{"message":"Method : POST, Path : /add","level":"info"}
+{"message":{"status":200,"todoDetails":{"_id":"60db369e34ddf836dc922d83","name":"j","description":"u","time":"19:08","status":"Completed","__v":0}},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : GET, Path : /inProgress","level":"info"}
+{"message":{"status":200,"recordCount":1},"level":"info"}
+{"message":"Method : GET, Path : /completed","level":"info"}
+{"message":{"status":200,"recordCount":1},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : POST, Path : /add","level":"info"}
+{"message":{"status":200,"todoDetails":{"_id":"60db36db34ddf836dc922d89","name":"s","description":"i","time":"08:04","status":"In Progress","__v":0}},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":3},"level":"info"}
+{"message":"Method : GET, Path : /completed","level":"info"}
+{"message":{"status":200,"recordCount":1},"level":"info"}
+{"message":"Method : GET, Path : /inProgress","level":"info"}
+{"message":{"status":200,"recordCount":2},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":3},"level":"info"}
+{"message":"Method : GET, Path : /list","level":"info"}
+{"message":{"status":200,"recordCount":3},"level":"info"}

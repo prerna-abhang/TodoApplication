@@ -1,0 +1,29 @@
+.list-group{
+    min-height: 176px;
+    height: fit-content;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.filter{
+    color: white;
+    font-size: 1.50em;
+}
+
+.todoHeader{
+    text-align: center;
+    width: 400px; 
+    margin-top: 10px;
+}
+
+.completed{
+    font-size: 1.50em; 
+    color: green;
+}
+
+.inProgress{
+    font-size: 1.50em;
+    color: #0d6efd;
+}
+
+

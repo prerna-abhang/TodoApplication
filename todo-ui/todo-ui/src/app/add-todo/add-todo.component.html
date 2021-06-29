@@ -1,0 +1,25 @@
+<div class="container p-4 mt-5 col-sm-9 col-md-7 col-lg-5 bg-light">
+    <form #addTodoForm="ngForm" (ngSubmit)="addTodo()">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" [(ngModel)]="name" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <input type="text" [(ngModel)]="description" class="form-control" id="description" name="description"
+                required>
+        </div>
+        <div class="mb-3 ">
+            <label for="time" class="form-label">Time</label>
+            <input type="time" [(ngModel)]="time" class="form-control" id="time" name="time" required>
+        </div>
+        <div class="mb-3">
+            <label for="time" class="form-label">Status</label><br>
+            <input type="radio" id="inprogress" [(ngModel)]="status" name="status" value="In Progress" required>
+            <label for="inprogress">In Progress</label>
+            <input type="radio" id="completed" [(ngModel)]="status" name="status" value="Completed" required>
+            <label for="completed">Completed</label>
+        </div>
+        <button type="submit" class="btn btn-primary" [disabled]="!addTodoForm.valid">Submit</button>
+    </form>
+</div>

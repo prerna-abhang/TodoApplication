@@ -1,0 +1,41 @@
+<div class="container mt-5 col-sm-9 col-md-7 col-lg-5">
+  <div class="list-group border">
+    <a class="list-group-item list-group-item-action active">
+      <div class="d-flex w-100 justify-content-between">
+        <h4 class="mb-1 todoHeader" >Todo List</h4>
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="bi bi-sliders filter"></i>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+            <button class="dropdown-item" type="button" (click)="getTodoList()">All</button>
+            <button class="dropdown-item" type="button" (click)="getInProgressTodos()">In Progress</button>
+            <button class="dropdown-item" type="button" (click)="getCompletedTodos()">Completed</button>
+          </div>
+        </div>
+      </div>
+    </a>
+    <div *ngIf="todoResult && todoResult.recordCount!=0; else emptyTodoList">
+      <div *ngFor="let todo of todoList">
+        <div class="list-group-item">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1 text-break">{{todo.name}}</h5>
+            <i class="bi bi-check-circle-fill completed" *ngIf="todo.status=='Completed'"></i>
+            <i class="bi bi-alarm-fill inProgress" *ngIf="todo.status=='In Progress'"></i>
+          </div>
+          <p class="mb-1 text-break">{{todo.description}}</p>
+          <div class="d-flex w-100 justify-content-between">
+            <small class="mb-1 text-success">{{todo.time}}</small>
+            <small class="text-success">{{todo.status}}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ng-template #emptyTodoList>
+      <div class="container mt-5 text-center text-secondary">
+        No Todo tasks to Display!
+      </div>
+    </ng-template>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+.container {
+    box-sizing: border-box;
+}
+
+#completed, #inprogress{
+    margin: 0px 10px 0px 10px;
+}
